@@ -20,8 +20,8 @@ a {
 }
 
 nav {
-    padding: 5px 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 5px 20px;
+    box-shadow: 0 0 4px  rgba(0,0,0,0.5);
     background: #fff;
     position: sticky;
     top: 0;
@@ -29,15 +29,19 @@ nav {
 }
 
 .nav-right {
-    width: 35px;
+    width: 110px;
     margin-right: 25px;
 }
 
 .nav-right .user-icon {
-    width: 35px;
+    width: 30px;
     border-radius: 50%;
 }
-
+.nav-right img{
+    width:40px;
+    padding: 2px;
+   
+}
 .nav-left .menu-icon {
     width: 22px;
     margin-right: 25px;
