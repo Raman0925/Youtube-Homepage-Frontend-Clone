@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="./youtube.css">
+    <script src="index.js"></script>
+
+</head>
+<body>
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="./images/menu.png" class="menu-icon" onclick="addingSidebarClass()">
+            <img src="./images/yt_logo_rgb_light.png" class="logo">
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="Search">
+                <img src="images/search.png" alt="Search">
+            </div>
+            <img src="images/voice-search.png" class="mic-icon" alt="Voice Search">
+        </div>
+        <div class="nav-right flex-div">
+            <img src="./images/upload.png" alt="Upload">
+            <img src="./images/more.png" alt="More">
+            <img src="./images/notification.png" alt="Notifications">
+            <img src="./images/Jack.png" class="user-icon" alt="User Icon">
+        </div>
+    </nav>
+    <div class="sidebar">
+        <div class="shortcut-links">
+            <a href="#"><img src="./images/home.png" alt="Home"><p>Home</p></a>
+            <a href="#"><img src="./images/explore.png" alt="Explore"><p>Explore</p></a>
+            <a href="#"><img src="./images/subscriprion.png" alt="Subscription">Subscription</a>
+            <a href="#"><img src="./images/library.png" alt="Library">Library</a>
+            <a href="#"><img src="./images/history.png" alt="History">History</a>
+            <a href="#"><img src="./images/playlist.png" alt="Playlist">Playlist</a>
+            <a href="#"><img src="./images/messages.png" alt="Messages">Messages</a>
+            <a href="#"><img src="./images/show-more.png" alt="Show More">Show More</a>
+            <hr>
+        </div>
+        <div class="subscribed-list">
+            <h3>SUBSCRIBED</h3>
+            <a href="#"><img src="images/Jack.png" alt="Jack Nicholson"><p>Jack Nicholson</p></a>
+            <a href="#"><img src="images/simon.png" alt="Simon Baker"><p>Simon Baker</p></a>
+            <a href="#"><img src="images/tom.png" alt="Tom Hardy"><p>Tom Hardy</p></a>
+            <a href="#"><img src="images/megan.png" alt="Megan"><p>Megan</p></a>
+            <a href="#"><img src="images/cameron.png" alt="Cameron"><p>Cameron</p></a>
+        </div>
+    </div>
+    <main>
+        <div class="container">
+            <div class="banner">
+                <img src="images/banner.png" alt="Banner">
+            </div>
+            <div class="list-container">
+                <!-- Video 1 -->
+                <div class="vid-list">
+                    <img src="images/thumbnail1.png" alt="Video Thumbnail 1" class="thumbnail">
+                    <div class="flex-div">
+                        <img src="images/Jack.png" alt="Channel 1">
+                        <div class="vid-info">
+                            <a href="#">How to Cook a Perfect Steak</a>
+                            <p>Cooking Tutorials</p>
+                            <p>25k Views 1 day ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 2 -->
+                <div class="vid-list">
+                    <img src="images/thumbnail2.png" alt="Video Thumbnail 2" class="thumbnail">
+                    <div class="flex-div">
+                        <img src="images/simon.png" alt="Channel 2">
+                        <div class="vid-info">
+                            <a href="#">The Ultimate Fitness Routine</a>
+                            <p>Fitness & Health</p>
+                            <p>40k Views 3 days ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 3 -->
+                <div class="vid-list">
+                    <img src="images/thumbnail3.png" alt="Video Thumbnail 3" class="thumbnail">
+                    <div class="flex-div">
+                        <img src="images/tom.png" alt="Channel 3">
+                        <div class="vid-info">
+                            <a href="#">Exploring New Technologies</a>
+                            <p>Tech Reviews</p>
+                            <p>15k Views 5 days ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 4 -->
+                <div class="vid-list">
+                    <img src="images/thumbnail4.png" alt="Video Thumbnail 4" class="thumbnail">
+                    <div class="flex-div">
+                        <img src="images/megan.png" alt="Channel 4">
+                        <div class="vid-info">
+                            <a href="#">Traveling on a Budget</a>
+                            <p>Travel Vlogs</p>
+                            <p>30k Views 7 days ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 5 -->
+                <div class="vid-list">
+                    <img src="images/thumbnail5.png" alt="Video Thumbnail 5" class="thumbnail">
+                    <div class="flex-div">
+                        <img src="images/cameron.png" alt="Channel 5">
+                        <div class="vid-info">
+                            <a href="#">DIY Home Improvement Ideas</a>
+                            <p>Home & Garden</p>
+                            <p>22k Views 10 days ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 6 -->
+                <div class="vid-list">
+                    <img src="images/thumbnail6.png" alt="Video Thumbnail 6" class="thumbnail">
+                    <div class="flex-div">
+                        <img src="images/Jack.png" alt="Channel 1">
+                        <div class="vid-info">
+                            <a href="#">Introduction to Web Development</a>
+                            <p>Programming</p>
+                            <p>35k Views 2 weeks ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 7 -->
+                <div class="vid-list">
+                    <img src="images/thumbnail7.png" alt="Video Thumbnail 7" class="thumbnail">
+                    <div class="flex-div">
+                        <img src="images/simon.png" alt="Channel 2">
+                        <div class="vid-info">
+                            <a href="#">Best Books of 2024</a>
+                            <p>Book Reviews</p>
+                            <p>18k Views 4 weeks ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 8 -->
+                <div class="vid-list">
+                    <img src="images/thumbnail8.png" alt="Video Thumbnail 8" class="thumbnail">
+                    <div class="flex-div">
+                        <img src="images/tom.png" alt="Channel 3">
+                        <div class="vid-info">
+                            <a href="#">Photography Tips and Tricks</a>
+                            <p>Photography</p>
+                            <p>28k Views 1 month ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
