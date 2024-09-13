@@ -1,0 +1,20 @@
+# Node.js modules
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# IDE settings
+.vscode/
+.idea/
+
+# Build output
+dist/
+build/
+
+# ESLint cache
+.eslintcache
